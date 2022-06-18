@@ -1,0 +1,485 @@
+html {
+    width: 1440px;
+    margin: 20px;
+    padding: 0px; 
+}
+body {
+    width: 100%;
+    height: 3450px;
+    background-color: white;
+    margin: 0px;
+}
+.header {
+    width: 100%;
+    height: 800px;
+    background-image: url('bg-hero-desktop.svg');
+    background-color:  hsl(193, 100%, 96%);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.navi {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+}
+.navi > div{
+    width: 700px;
+    margin: 0px 40px 0 40px;
+}
+.logo {
+    padding: 35px 0 30px 20px;
+    width: 610px;
+}
+.nav {
+    text-align: right;
+}
+.nav button {
+    border-width: 0px;
+    background-color: white;
+    height: 40px;
+    width: 180px;
+    border-radius: 40px;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    margin: 35px 20px 30px 0;
+    font-weight: 400;
+}
+
+.homepage {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    font-weight: 400;
+}
+.homepage > div {
+    height:700px;
+    justify-content: center;
+    align-items: center;
+}
+.illust {
+    margin: 60px 0 60px 180px;
+    height: 600px;
+}
+.copy {
+    width: 1320px;
+    height: 500px;
+    display: flex;
+    margin: 60px;
+    border: solid 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0.5px 10px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans', sans-serif;
+}
+.copy1 {
+    width: 1320px;
+    height: 500px;
+    display: flex;
+    margin: 60px;
+    border: solid 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0.5px 10px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans', sans-serif;
+}
+.copywright{
+    width: 500px;
+    padding: 160px 0px 0 60px;
+    font-size: 18px;
+
+}
+.illustration1 {
+    padding: 50px 0 10px 270px;
+}
+.illustration2{
+    padding: 50px 100px 10px 150px;
+}
+.copy > div{
+    width: 680px;
+    justify-content: center;
+    align-items: center;
+}
+.copy1 > div{
+    width: 680px;
+    justify-content: center;
+    align-items: center;
+}
+.texttype {
+    width: 580px;
+    margin: 0 50px 0 50px;
+    font-size: 18px;
+    padding: 160px 0 40px 0;
+    font-weight: 400;
+
+}
+.texttype1 {
+    width: 580px;
+    margin: 0 80px 0 150px;
+    font-size: 18px;
+    padding: 160px 0 40px 0;
+    font-weight: 400;
+
+}
+.illust {
+    width: 800px;
+    background-image: url()
+}
+.copywright button {
+    border-width: 0px;
+    background-color: hsl(322, 100%, 66%);
+    height: 40px;
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    font-weight: 600;
+    color: white
+}
+
+.started {
+    height: 200px;
+    padding: 50px;
+    width: 55%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: relative;
+    top: 150px;
+    left: 17%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.started h3{
+    font-size: 40px;
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+}
+.started button{
+    border-width: 0px;
+    background-color: hsl(322, 100%, 66%);
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.footer {
+    width: 90.27%;
+    height: 500px;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    padding: 70px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact {
+    width: 40%;
+    height: 380px;
+    padding-top: 120px;
+    color: white;
+
+}
+.contact > svg {
+    color: white;
+}
+.contact > div{
+    margin-bottom: 40px;
+   
+}
+.contact .icons svg{
+    position: absolute;
+}
+.contact .icons p{
+    margin: 0;
+    color: white;
+    position: relative;
+    left: 40px;
+    width: 400px;
+    line-height: 20px;
+}
+.about{
+    width: 60%;
+    display: flex;
+    height: 380px;
+    padding-top: 185px;
+    color: white;
+}
+.about > div{
+    width: 288px;
+}
+.about p{
+    margin-bottom: 40px;
+}
+ion-icon {
+    font-size: 32px;
+}
+.cont3 p{
+    font-size: 10px; 
+    text-align: right; 
+    margin: 200px 0 0 0;
+}
+@media only screen and (max-width:375px) {
+    html {
+        width: 374px;
+        margin: 0px;
+        padding: 0px; 
+    }
+    body {
+        width: 374px;
+        height: 3450px;
+        background-color: white;
+        margin: 0px;
+    }
+    .header {
+        width: 374px;
+        height: 800px;
+        background-image: url('bg-hero-desktop.svg');
+        background-color:  hsl(193, 100%, 96%);
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+    .navi {
+        width: 375px;
+        height: 100px;
+        display: flex;
+    }
+    .navi > div{
+        width: 180px;
+        margin: 0px 5px 0 20px;
+    }
+    .logo {
+        padding: 45px 0 30px 0px;
+        width: 150px;
+    }
+    .logo img {
+        width: 90px;
+        height: 20px;
+    }
+    .nav {
+        text-align: right;
+    }
+    .nav button {
+        border-width: 0px;
+        background-color: white;
+        height: 40px;
+        width: 90px;
+        border-radius: 40px;
+        box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.2);
+        margin: 35px 20px 30px 0;
+        font-weight: 400;
+    }
+    
+    .homepage {
+        width: 374px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+    }
+    .homepage > div {
+
+        height:350px;
+        
+    }
+    .illust img {
+        height: 200px;
+        width: 300px; 
+
+    }
+    .illust{
+        margin: 60px 0px 60px 30px;
+    }
+    .copy {
+        width: 350px;
+        height: 500px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10px 5px 10px 13px;
+        border: solid 0px;
+        border-radius: 20px;
+        box-shadow: 0px 0.5px 10px 2px rgba(0, 0, 0, 0.1);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .copy1 {
+        width: 350px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 5px 10px 13px;
+        border: solid 0px;
+        border-radius: 20px;
+        box-shadow: 0px 0.5px 10px 2px rgba(0, 0, 0, 0.1);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .copywright{
+        width: 365px;
+        padding: 20px 8px 0 8px;
+        font-size: 18px;
+        text-align: center;
+    
+    }
+    .copy > div{
+        width: 330px;
+        justify-content: center;
+        align-items: center;
+    }
+    .copy1 > div{
+        width: 330px;
+        justify-content: center;
+        align-items: center;
+    }
+    .texttype {
+        width: 365px;
+        margin: 0 3px 0 3px;
+        font-size: 18px;
+        padding: 10px 0 2px 0;
+        font-weight: 400;
+        text-align: center;
+    
+    }
+    .copy img {
+        width: 300px;
+        height: 250px;
+    }
+    .copy1 img {
+        width: 300px;
+        height: 250px;
+    }
+    .illustration1{
+        padding: 2px 2px 2px 30px;
+    }
+    .texttype1 {
+        width: 330px;
+        margin: 0 3px 0 3px;
+        font-size: 18px;
+        padding: 10px 0 2px 0;
+        font-weight: 400;
+        text-align: center;
+    
+    }
+    .illustration2{
+        padding: 2px 2px 2px 20px;
+    }
+    .texttype2 {
+        width: 330px;
+        margin: 0 3px 0 3px;
+        font-size: 18px;
+        padding: 10px 0 2px 0;
+        font-weight: 400;
+        text-align: center;
+    
+    }
+    .illust {
+        width: 800px;
+        background-image: url()
+    }
+    .illust svg {
+        viewBox: 0 0 4000 4000;
+    }
+    .copywright button {
+        border-width: 0px;
+        background-color: hsl(322, 100%, 66%);
+        height: 40px;
+        width: 300px;
+        border-radius: 40px;
+        box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.2);
+        margin-top: 40px;
+        font-weight: 600;
+        color: white
+    }
+    
+    .started {
+        height: 70px;
+        padding: 20px 7px 40px 7px;
+        width: 250px;
+        text-align: center;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        position: relative;
+        top: 80px;
+        left: 10%;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    .started h3{
+        font-size: 15px;
+        color: hsl(192, 100%, 9%);
+        font-weight: 700;
+    }
+    .started button{
+        border-width: 0px;
+        background-color: hsl(322, 100%, 66%);
+        height: 20px;
+        width: 100px;
+        font-size: 8px;
+        border-radius: 40px;
+        box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.2);
+        font-weight: 700;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    
+    .footer {
+        width: 90.27%;
+        height: 800px;
+        background-color: hsl(192, 100%, 9%);
+        display: flex;
+        padding: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        flex-direction: column;
+    }
+    .contact {
+        width: 40%;
+        height: 380px;
+        padding-top: 70px;
+        color: white;
+    
+    }
+    .contact > svg {
+        color: white;
+    }
+    .contact > div{
+        margin-bottom: 40px;
+       
+    }
+    .contact .icons svg{
+        position: absolute;
+    }
+    .contact .icons p{
+        margin: 0;
+        color: white;
+        position: relative;
+        left: 40px;
+        width: 250px;
+        line-height: 20px;
+    }
+    .about{
+        width: 60%;
+        display: flex;
+        height: 380px;
+        padding-top: 10px;
+        color: white;
+        flex-direction: column
+    }
+    .about > div{
+        width: 335px;
+    }
+    .about p{
+        margin-bottom: 5px;
+    }
+    .cont3 {
+        width: 335px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .cont3 p{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
